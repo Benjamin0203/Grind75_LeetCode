@@ -52,7 +52,7 @@ var longestPalindrome = function(s) {
         for (let j = i; j < s.length; j++) {
           bool = true;
           chr += s[j];
-          for(let k = 0, m = chr.length - 1; k <= 1; k++, m--) {
+          for(let k = 0, m = chr.length - 1; k <= m; k++, m--) {
               if (chr[k] !== chr[m]) {
                   bool = false;
                   break;
