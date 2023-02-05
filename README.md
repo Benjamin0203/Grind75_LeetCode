@@ -9,3 +9,4 @@
 * [110. Balanced Binary Tree](./balancedBinaryTree_110.js)
 * [longest substring](./substring_problems.md)
 * [Longest Palindromic Substring](./LongestPalindromicSubstring.md)
+* [Two Sum](./TwoSum.md)
