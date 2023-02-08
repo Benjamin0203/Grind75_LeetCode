@@ -12,3 +12,4 @@
 * [Longest Palindromic Substring](./LongestPalindromicSubstring.md)
 * [Two Sum](./TwoSum.md)
 * [Container With Most Water](./container-with-most-water.md)
+*[3Sum](./3Sum.md)
