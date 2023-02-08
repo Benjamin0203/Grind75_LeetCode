@@ -62,6 +62,7 @@ var twoSum = function(nums, target) {
     return [];
 };
 ```
+### Method 2
 ```javascript
 var twoSum = function(nums, target) {
   const map = new Map();
