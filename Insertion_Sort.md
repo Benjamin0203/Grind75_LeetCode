@@ -12,7 +12,7 @@ insertionSort([12, 16, 14, 1, 2, 3]); // [1, 2, 3, 12, 14, 16]
 
 ---
 
-# Solution
+# Solution `O(n2)`
 
 ```javascript
 /**

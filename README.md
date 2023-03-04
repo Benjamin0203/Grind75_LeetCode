@@ -20,3 +20,4 @@
 - [3Sum](./3Sum.md)
 - [Remove Nth Node From End of List](./Remove_Nth_Node_From_End_of_List.md)
 - [Insertion Sort](./Insertion_Sort.md)
+- [Binary Search](./Binary_Search.md)
