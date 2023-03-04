@@ -19,3 +19,4 @@
 - [Container With Most Water](./container-with-most-water.md)
 - [3Sum](./3Sum.md)
 - [Remove Nth Node From End of List](./Remove_Nth_Node_From_End_of_List.md)
+- [Insertion Sort](./Insertion_Sort.md)
