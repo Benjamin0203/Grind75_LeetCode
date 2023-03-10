@@ -51,3 +51,12 @@ export default function insertionSort(arr) {
   return arr;
 }
 ```
+
+# Solution 2
+
+```js
+export default function insertionSort(arr) {
+  arr.sort((a, b) => a - b);
+  return arr;
+}
+```
