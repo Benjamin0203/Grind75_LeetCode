@@ -22,3 +22,4 @@
 - [Insertion Sort](./Insertion_Sort.md)
 - [Binary Search](./Binary_Search.md)
 - [Depth-First-Search(DFH)](./depth-first-search.md)
+- [Flatten](./Flatten.md)
