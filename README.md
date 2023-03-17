@@ -23,3 +23,4 @@
 - [Binary Search](./Binary_Search.md)
 - [Depth-First-Search(DFH)](./depth-first-search.md)
 - [Flatten](./Flatten.md)
+- [Merge Two Sorted Lists](./mergeTwoSortedLists.md)
