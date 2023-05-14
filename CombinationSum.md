@@ -59,3 +59,36 @@ class Solution {
     }
 }
 ```
+
+## Add-on
+
+### Difference between `int[][] list` and `List<List<Integer>> list`
+
+`int[][] list` is a two-dimensional array of integers, where list is a variable that holds a reference to this array. In other words, list is an array of arrays, where each sub-array is an array of integers.
+
+On the other hand, `List<List<Integer>> list = new ArrayList<>()` is a list of lists, where each element of the outer list is a reference to an inner list that contains integers. This is a more flexible data structure than a two-dimensional array because you can add or remove elements from the inner lists without affecting the size of the outer list.
+
+Here's an example to illustrate the difference:
+
+```java
+// Two-dimensional array of integers
+int[][] arr = new int[2][3];
+arr[0][0] = 1;
+arr[0][1] = 2;
+arr[0][2] = 3;
+arr[1][0] = 4;
+arr[1][1] = 5;
+arr[1][2] = 6;
+
+// List of lists of integers
+List<List<Integer>> list = new ArrayList<>();
+list.add(new ArrayList<>());
+list.get(0).add(1);
+list.get(0).add(2);
+list.get(0).add(3);
+list.add(new ArrayList<>());
+list.get(1).add(4);
+list.get(1).add(5);
+list.get(1).add(6);
+
+```
