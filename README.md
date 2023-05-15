@@ -26,3 +26,5 @@
 - [Merge Two Sorted Lists](./mergeTwoSortedLists.md)
 - [Search in Rotated Sorted Array](./SearchInRotatedSortedArray.md)
 - [Combination Sum](./CombinationSum.md)
+- [Rotate Image](./RotateImage.md)
+- [Group Anagrams](./GroupAnagrams.md)
