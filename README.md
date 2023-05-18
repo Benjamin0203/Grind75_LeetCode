@@ -30,3 +30,4 @@
 - [Group Anagrams](./GroupAnagrams.md)
 - [Maximum Subarray](./MaximumSubarray.md)
 - [Spiral Matrix](./SpiralMatrix.md)
+- [Jump Game](./JumpGame.md)
