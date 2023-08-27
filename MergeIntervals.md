@@ -17,7 +17,7 @@ Input: intervals = [[1,4],[4,5]]
 Output: [[1,5]]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
-# Solution
+# Solution: Java
 
 ```java
 class Solution {
@@ -47,4 +47,28 @@ Arrays.sort(intervals, (o1, o2) -> o1[0] - o2[0]);
     }
 
 }
+```
+
+# Solution: Python
+
+```python
+class Solution(object):
+    def merge(self, intervals):
+        """
+        :type intervals: List[List[int]]
+        :rtype: List[List[int]]
+        """
+
+        out = []
+        for i in sorted(intervals, key=lambda i: i[0]):
+            # The sorted() function is used to sort the intervals based on their start points (i[0]).
+            # lambda i: i[0] is a lambda function. A lambda function is a small, anonymous function in Python. In this case, the lambda function takes one argument, i, and returns i[0].
+            if out and i[0] <= out[-1][1]:
+                #if the current interval begins before the previous interval ends, then we know that they overlap.
+                out[-1][1] = max(out[-1][1], i[1])
+                # we merge the two intervals by updating the end of the previous interval if it is less than the end of the current interval.
+            else:
+                # Otherwise, we add the current interval to the output array.
+                out += [i]
+        return out
 ```
